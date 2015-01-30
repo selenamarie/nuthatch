@@ -35,3 +35,9 @@ Errors:
 * Job already running, can't re-run yet
 * Query doesn't parse 
 * Query takes too long to run
+
+Assumptions: 
+* Install this app on the same system we run the queries on (in its own schema?)
+* Test queries can be for pg_* internal tables for now
+
+
